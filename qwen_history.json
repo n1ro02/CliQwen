@@ -1,0 +1,30 @@
+[
+  {
+    "role": "system",
+    "content": "You are a helpful assistant."
+  },
+  {
+    "role": "user",
+    "content": "which mode are u?"
+  },
+  {
+    "role": "assistant",
+    "content": "I am in the Qwen-Max mode. This mode is best suited for handling complex, multi-step tasks that require deep reasoning and understanding. If you have any specific questions or tasks, feel free to ask, and I'll do my best to assist you!"
+  },
+  {
+    "role": "user",
+    "content": "which mode are u?"
+  },
+  {
+    "role": "assistant",
+    "content": "I am in the **Qwen-Max** mode. This mode is designed for handling complex, multi-step tasks that require deep reasoning and understanding. If you need help with any specific tasks or have questions, feel free to let me know! 😊"
+  },
+  {
+    "role": "user",
+    "content": "which mode are u?"
+  },
+  {
+    "role": "assistant",
+    "content": "I am in the **Qwen-Max** mode. This mode is optimized for complex, multi-step tasks that require deep reasoning and extensive knowledge. If you have any questions or need assistance with a task, I'm here to help! 😊"
+  }
+]
