@@ -26,5 +26,21 @@
   {
     "role": "assistant",
     "content": "I am in the **Qwen-Max** mode. This mode is optimized for complex, multi-step tasks that require deep reasoning and extensive knowledge. If you have any questions or need assistance with a task, I'm here to help! 😊"
+  },
+  {
+    "role": "user",
+    "content": "which model are u"
+  },
+  {
+    "role": "assistant",
+    "content": "I am **Qwen-Max**, which is part of the Qwen series developed by Alibaba Cloud. I am designed to handle complex, multi-step tasks that require deep reasoning, extensive knowledge, and high accuracy. If you have any specific questions or tasks, feel free to ask! 😊"
+  },
+  {
+    "role": "user",
+    "content": "which mode are u?"
+  },
+  {
+    "role": "assistant",
+    "content": "I am in the **Qwen-Max** mode. This mode is tailored for complex tasks that require deep reasoning, extensive knowledge, and high precision. If you have any questions or need assistance with a task, I'm here to help! 😊"
   }
 ]
