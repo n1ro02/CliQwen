@@ -42,14 +42,21 @@ messages.append({'role': 'user', 'content': user_input})
 # 请求大模型
 response = client.chat.completions.create(
     model="qwen-plus",
-    messages=messages
+    messages=messages,
+    stream=True
 )
 
-reply = response.choices[0].message.content.strip()
-print(reply)
+reply_text = ""
 
-# 添加回复到历史
-messages.append({'role': 'assistant', 'content': reply})
+for chunk in response:
+    if chunk.choices and chunk.choices[0].delta.content:
+        content_piece = chunk.choices[0].delta.content
+        print(content_piece, end='', flush=True)
+        reply_text += content_piece
+
+print()  # 最后换行
+messages.append({'role': 'assistant', 'content': reply_text})
+
 
 # 保存历史上下文
 with open(HISTORY_FILE, "w", encoding="utf-8") as f:
